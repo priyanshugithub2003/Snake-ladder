@@ -1,0 +1,46 @@
+/* Styling for the game */
+#gameContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#boardContainer {
+    position: relative;
+    width: 600px;  /* Set according to your image size */
+    height: 600px;
+    margin: 0 auto;
+}
+
+/* Board image */
+#board {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+/* Player tokens */
+.player {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 10;
+    transition: top 0.5s, left 0.5s; /* Smooth transition for movement */
+}
+
+/* Player 1 and Player 2 distinct colors */
+#player1 {
+    background-color: red;
+    color: white;
+}
+
+#player2 {
+    background-color: blue;
+    color: white;
+}
+
+#controls {
+    margin-top: 20px;
+}
